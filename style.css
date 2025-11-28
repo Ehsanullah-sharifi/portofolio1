@@ -484,3 +484,143 @@ body {
     transform: translateX(-50%);
   }
 }
+/* ===================== RESPONSIVE — TABLETS ===================== */
+@media (max-width: 992px) {
+  #navDiv nav {
+    padding: 15px 20px;
+    justify-content: space-between;
+  }
+
+  #navDiv nav div {
+    flex-basis: auto;
+  }
+
+  #container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #selfImage img.styled-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .developer-svg img {
+    width: 220px !important;
+    height: 160px !important;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  #cards {
+    gap: 15px;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .skills-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .skill-card {
+    width: 45%;
+  }
+
+  .train-track img {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+/* ===================== RESPONSIVE — MOBILE PHONES ===================== */
+@media (max-width: 600px) {
+  /* NAV */
+  #navDiv nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  #navDiv nav div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #navDiv nav a {
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero-text h1 {
+    font-size: 1.8rem;
+    white-space: normal;
+    border-right: none;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  /* PROFILE CONTAINER */
+  #container {
+    padding: 40px 10px;
+    text-align: center;
+  }
+
+  #selfImage img.styled-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .developer-svg img {
+    width: 180px !important;
+    height: 130px !important;
+  }
+
+  #container h1 {
+    font-size: 1.5rem;
+  }
+  #container h2 {
+    font-size: 1.2rem;
+  }
+
+  /* PROJECT CARDS */
+  .card {
+    width: 90%;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .skill-card {
+    width: 100%;
+  }
+
+  /* ABOUT */
+  #About p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  /* IMAGES SLIDER */
+  .train-track img {
+    width: 150px;
+    height: 110px;
+  }
+
+  /* FOOTER */
+  #section3 img {
+    width: 40px;
+  }
+}
